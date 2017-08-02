@@ -1,0 +1,234 @@
+#intrologo {
+	text-align: center;
+	margin-bottom: 4rem;
+}
+
+/* Style */
+#mySVG {
+	width: 48%;
+}
+#mySVG * {
+  fill-opacity: 0;
+  stroke: #000;
+  transition: fill-opacity 0.5s;
+}
+
+#mySVG.finished * {
+  fill-opacity: 1;
+  fill: #000 !important;
+}
+
+html{
+	font-size: 62.5%;
+}
+
+
+*{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: none;
+}
+
+body, p{
+	font-family: 'Rubik', sans-serif;	
+	color: #ccc;
+}
+
+a:link, a:active, a:visited, a:hover{
+	outline:none;
+	text-decoration: none;
+	color: rgba(0, 25, 255, 1);
+	/*border-bottom: 4px solid rgba(0, 25, 255, 1);*/
+}
+
+a.gray {
+	color: #ccc;
+	border: none !important;
+}
+
+
+section, header{
+	display: block;
+}
+
+.blue {
+	/*color: rgba(0,25,255, 1);*/
+}
+
+
+img {
+	max-width: 100%;
+}
+
+
+#wrap{
+	width: 100%;
+	max-width: 1000px;
+	padding: 40px;
+	margin: 0 auto;
+}
+
+
+section{
+	margin: 10% 0;
+}
+
+
+header h3{
+	font-size: 1.8rem;
+	font-weight: 400;
+	color: #ccc;
+	margin-bottom: 24px;
+	float: left;
+}
+
+
+header:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+#social{
+	float: right;
+	font-size: 1.4rem;
+	width: 48%;
+	text-align: right;
+}
+
+#social a:link, #social a:active, #social a:visited{
+	color: #ccc;
+	margin-left: 2%;
+	border: none;
+} 
+
+#social a:hover{
+	color: rgba(0, 25, 255, 1)
+}
+
+#tagline {
+
+}
+
+#intro p{
+	text-align: center;
+	font-size: 1.8rem;
+	margin-bottom: 24px;
+	line-height: 140%;
+	/*opacity: 0.6;*/
+	color: #ccc;
+}
+
+#intro strong{
+	font-weight: 600;
+}
+
+#intro .naked {
+	border: none !important;
+}
+
+
+#intro a:link, #intro a:active, #intro a:visited{
+	/*border-bottom: 4px solid rgba(0,25,255, 0.35);*/
+	border-bottom: 4px solid rgba(0, 25, 255, 1);
+}
+
+
+#intro a:hover{
+	color: rgba(0, 0, 0, 1) !important;
+	border-bottom: 4px solid rgba(0, 0, 0, 1);
+}
+
+#footer{
+	/*border-top: 1px solid #ccc;*/
+	padding: 1rem 0;
+	text-align: center;
+}
+
+#footer p{
+	/*font-family: sans-serif;*/
+	font-size: 1.5rem;
+	/*opacity: .5;*/
+}
+
+
+
+/*/ RESPONSIVE */
+
+	
+@media screen and (max-width: 850px) {
+
+	#mySVG {
+	width: 58%;
+}
+
+	
+	#wrap{
+		width: 100%;
+		padding: 20px;
+		margin: 0 auto;
+	}
+
+header h3{
+	font-size: 1.5rem;
+	font-weight: 600;
+}
+
+
+#intro p{
+	font-size: 1.8rem;
+	margin-bottom: 24px;
+	line-height: 130%;
+}
+
+
+#intro a:link, #intro a:active, #intro a:visited{
+	border-bottom: 4px solid rgba(0, 25, 255, 1);
+}
+
+
+#intro a:hover{
+	color: rgba(0, 0, 0, 1) !important;
+	border-bottom: 4px solid rgba(0, 0, 0, 1);
+}
+
+
+#social a:link, #social a:active, #social a:visited, #social a:hover{
+	margin-left: 4%;
+}
+
+}	
+
+@media screen and (max-height: 450px) {
+  
+}
+	
+	
+#mc_embed_signup{
+  /*background:#fff; */
+  clear:left; 
+  width:100%;
+}
+
+#mc_embed_signup form {
+ /*text-align: left !important;*/
+}
+#mc_embed_signup input {
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	/*font-size: 2rem !important;*/
+	font-family: 'Rubik', sans-serif;
+}
+
+#mc_embed_signup .button {
+	background-color: #ccc !important;
+}
+
+#mc_embed_signup .button:hover {
+	background-color: rgba(0, 25, 255, 1) !important;
+}
